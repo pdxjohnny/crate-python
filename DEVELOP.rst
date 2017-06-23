@@ -59,7 +59,7 @@ In the release branch:
 
 - Create a tag by running ``./devtools/create_tag.sh``
 
-On the master:
+On the master branch if the release was based on the master branch:
 
 - Cherry-pick the "prepare release x.y.z" commit to the master and push
 
