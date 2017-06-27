@@ -45,7 +45,9 @@ Preparing a Release
 
 To create a new release, you must:
 
-- Backport your changes to the release branch x.y
+- Backport your bug fixes to the latest stable branch x.y (e.g. 0.19)
+
+- For new features, create a new stable branch x.(y+1) (e.g. 0.20)
 
 In the release branch:
 
@@ -59,9 +61,9 @@ In the release branch:
 
 - Create a tag by running ``./devtools/create_tag.sh``
 
-On the master branch if the release was based on the master branch:
+On the master:
 
-- Cherry-pick the "prepare release x.y.z" commit to the master and push
+- Update the release notes to reflect the release
 
 PyPI Deployment
 ===============
