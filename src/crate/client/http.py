@@ -253,6 +253,7 @@ class Client(object):
     retry_interval = 30
     """Retry interval for failed servers in seconds."""
 
+    # TODO: Make HTTPS
     default_server = "http://127.0.0.1:4200"
     """Default server to use if no servers are given on instantiation."""
 
